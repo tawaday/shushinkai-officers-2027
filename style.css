@@ -1,0 +1,65 @@
+*{box-sizing:border-box}body{margin:0;background:#f5f0e7;color:#381e26;font:1rem/1.65 system-ui,sans-serif}main{max-width:38rem;margin:1.5rem auto;background:#fffdf8;border:1px solid #bc9958}section{padding:1rem clamp(1rem,5vw,2.3rem) 2rem}.date{font:600 1.4rem/1.5 serif}.date small{font:normal .85rem system-ui;color:#694954}button,input{width:100%;padding:.8rem;font:inherit;border-radius:.45rem}button{background:#751c36;color:white;border:1px solid #91546a;cursor:pointer}button:disabled{opacity:.65;cursor:default}input{margin:.4rem 0;background:white;border:1px solid #9a7972}aside{border-top:1px solid #c8ad77;margin-top:1.4rem;padding-top:1rem}[hidden]{display:none}button:focus-visible{outline:3px solid #ae770d;outline-offset:2px}@media(max-width:40rem){main{margin:0 auto}}
+
+.soshinkai-newyear-header {
+  background-color: #762D43;
+  color: #ffffff;
+  padding: 24px 12px 28px;
+  text-align: center;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  box-sizing: border-box;
+}
+.soshinkai-newyear-header * { box-sizing: border-box; }
+.soshinkai-newyear-org {
+  color: #E9CC91;
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  margin: 0 0 18px;
+}
+.soshinkai-newyear-main {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 36px;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+.soshinkai-newyear-kadomatsu { font-family: sans-serif; font-size: 29px; line-height: 1; text-align: center; }
+.soshinkai-newyear-titles { min-width: 0; text-align: center; }
+.soshinkai-newyear-greeting {
+  color: #E9CC91;
+  font-size: clamp(25px, 7vw, 36px);
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0.08em;
+  margin: 0 0 6px;
+  white-space: nowrap;
+}
+.soshinkai-newyear-title {
+  color: #ffffff;
+  font-size: clamp(15px, 4.2vw, 22px);
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+.soshinkai-newyear-year {
+  color: #E9CC91;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+.soshinkai-newyear-test {
+  margin: 18px 0 0;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #E9CC91;
+  opacity: 0.85;
+}
+.soshinkai-newyear-subtitle { margin: 0; font-size: 1.1rem; }
+@media (max-width: 360px) {
+  .soshinkai-newyear-header { padding-left: 8px; padding-right: 8px; }
+  .soshinkai-newyear-main { grid-template-columns: 27px minmax(0, 1fr) 27px; gap: 3px; }
+  .soshinkai-newyear-kadomatsu { font-size: 23px; }
+  .soshinkai-newyear-greeting { font-size: 24px; }
+  .soshinkai-newyear-title { font-size: 15px; }
+}
