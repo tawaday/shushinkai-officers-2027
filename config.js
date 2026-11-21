@@ -1,1 +1,1 @@
-window.CHECK_CONFIG=Object.freeze({enabled:false,liffId:'',apiUrl:''});
+window.CHECK_CONFIG=Object.freeze({enabled:false,liffId:'2012738114-YDtytYZ5',apiUrl:'https://script.google.com/macros/s/AKfycbyafCbqevsOZlO3CO6vSPvhZn7K7Mx_3UkVrizj6SYA1u7e_mIyscalM6BibruscCzmxA/exec'});
